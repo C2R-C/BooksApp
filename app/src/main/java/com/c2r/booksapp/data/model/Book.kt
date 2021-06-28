@@ -1,0 +1,30 @@
+package com.c2r.booksapp.data.model
+
+data class Book(
+    val rank: Int = -1,
+    val rank_last_week: Int = 0,
+    val weeks_on_list: Int = 0,
+    val asterisk: Int = 0,
+    val dagger: Int = 0,
+    val primary_isbn10: String = "",
+    val primary_isbn13: String = "",
+    val publisher: String = "",
+    val description: String = "",
+    val price: String = "",
+    val title: String = "",
+    val author: String = "",
+    val contributor: String = "",
+    val contributor_note: String = "",
+    val book_image: String = "",
+    val book_image_width: Int = 0,
+    val book_image_height: Int = 500,
+    val amazon_product_url: String = "",
+    val age_group: String = "",
+    val book_review_link: String = "",
+    val first_chapter_link: String = "",
+    val sunday_review_link: String = "",
+    val article_chapter_link: String = "",
+    val isbns: List<Isbns> = listOf(),
+    val buy_links: List<Buy_links> = listOf(),
+    val book_uri: String = ""
+)
